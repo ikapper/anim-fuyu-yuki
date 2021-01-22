@@ -15,21 +15,11 @@ function component() {
 
 
 let fabcanvas;
-let rect;
 function init() {
     fabcanvas = new fabric.StaticCanvas('canvas', {
         renderOnAddRemove: false
     });
     fabcanvas.setBackgroundColor('#e2e2e2');
-    // create a rectangle object
-    rect = new fabric.Rect({
-        left: 100,
-        top: 100,
-        fill: 'red',
-        width: 20,
-        height: 20,
-        angle: 45
-    });
 
     init_house(0.5);
     init_house(0.3);
