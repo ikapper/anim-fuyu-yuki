@@ -22,7 +22,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin({ cleanStaleWebpackAssets: false }),
         new HtmlWebpackPlugin({
-            title: 'development'
+            title: 'Fuyu yuki'
         }),
     ],
     output: {
